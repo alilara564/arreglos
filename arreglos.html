@@ -7,6 +7,7 @@
     <title>Arreglos de Edades</title>
     <link rel="stylesheet" href="arreglos.css">
     <script src="arreglos.js"></script>
+    <script src = "utilitarios.js"></script>
 </head>
 
 <body>
@@ -34,19 +35,19 @@
                         <tr>
                             <td>12</td>
                             <td>
-                                <button class="btn-eliminar">Eliminar</button>
+                                <button class="btn-eliminar" onclick="eliminarIzquierdo(0)">Eliminar</button>
                             </td>
                             <td>
-                                <button class="btn-mover">➜</button>
+                                <button class="btn-mover" onclick="moverDerecha(0)">➜</button>
                             </td>
                         </tr>
                         <tr>
                             <td>15</td>
                             <td>
-                                <button class="btn-eliminar">Eliminar</button>
+                                <button class="btn-eliminar" onclick="eliminarIzquierdo(1)">Eliminar</button>
                             </td>
                             <td>
-                                <button class="btn-mover">➜</button>
+                                <button class="btn-mover" onclick="moverDerecha(1)">➜</button>
                             </td>
                         </tr>
                     </tbody>
@@ -66,21 +67,21 @@
                     <tbody id="tablaDerecha">
                         <tr>
                             <td>
-                                <button class="btn-mover">⬅</button>
+                                <button class="btn-mover" onclick="moverIzquierda(0)">⬅</button>
                             </td>
                             <td>20</td>
                             <td>
-                                <button class="btn-eliminar">Eliminar</button>
+                                <button class="btn-eliminar" onclick="eliminarDerecha(0)">Eliminar</button>
                             </td>
                         </tr>
 
                         <tr>
                             <td>
-                                <button class="btn-mover">⬅</button>
+                                <button class="btn-mover" onclick="moverIzquierda(1)">⬅</button>
                             </td>
                             <td>25</td>
                             <td>
-                                <button class="btn-eliminar">Eliminar</button>
+                                <button class="btn-eliminar" onclick="eliminarDerecha(1)">Eliminar</button>
                             </td>
                         </tr>
 
